@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url("https://live.staticflickr.com/4093/4857891548_0caeb0bcff_b.jpg");
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-size:cover;
+        }
+        #main{
+            text-align: center;
+            margin: auto;
+            border: 3px solid rgba(243, 240, 240, 0.2);
+            width: 400px;
+            background-color: transparent;
+            height: 350px;
+            margin-top: 150px;
+            border-radius: 25px;
+        }
+        .name{
+            width: 300px;
+            height: 35px;
+            border-radius: 25px;
+            border:1px solid white;
+            background-color: transparent;
+            color: white;
+            text-indent: 10px;
+            margin-bottom: 20px;
+        }
+        .name::placeholder{
+            color: white;
+        }
+        #check{
+            display: inline-block;
+        }
+        h1{
+            margin: 0;
+            display: inline; 
+            margin-top: 20px;
+            margin-bottom:20px;
+            color: white;
+
+        }
+        p{
+            margin: 0;
+            display: inline;
+            color: white;
+        }.login{
+            width: 300px;
+            height: 35px;
+            border-radius: 25px;
+            border:none;
+            cursor: pointer;
+            
+            
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size:16px;
+            color:#333;
+            font-weight:bold;
+            tr
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+            font-weight:900;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="main">   
+        <form>
+            <h1> login</h1>
+            <br>
+            <input class="name" style="transition:  0.5s;" 
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'" 
+             type="text" name="username" placeholder="username"/>
+            
+            <br>
+           
+            <input class="name" style="transition:  0.5s;" 
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'" 
+            type="password" name="password" placeholder="password"/>
+         
+            <br>
+            <div id="check">
+           
+                <input style="transition:  0.5s;" 
+                onmouseover="this.style.transform='scale(1.5)'"
+                onmouseout="this.style.transform='scale(1)'" 
+                type="checkbox" value="verify"/>
+                <p>remember me</p>
+            </div>
+            <a class="link" style=" margin-left:60px;" href="/">forget password</a>
+           
+           <br>
+         
+            <input class="login" style="transition:  0.5s;" 
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'" 
+            type="submit"value="login"/>
+           
+            <br>
+            <p> don't have an account ?</p>
+            <a class="link" href="/">register</a>
+        </form>   
+    </div>
+      
+     
+   
+</body>
+</html>
